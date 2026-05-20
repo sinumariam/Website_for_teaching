@@ -1,0 +1,40 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #ffffff;
+}
+
+
+header {
+    background: #56cf68;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: block;
+    }
+}
